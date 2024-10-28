@@ -1,0 +1,43 @@
+.principal img {
+	width: 100%;
+	height: auto;
+}
+
+.principal h1 {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+.secundario {
+	display: flex;			/**/
+	justify-content: center;
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 7%;
+
+
+}
+
+.secundario div {
+	width: 40%;
+	height: 400px;
+	
+}
+
+.secundario div img {
+	height: 100%;
+	width: auto;
+
+}
+
+.secundario div h2 {
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.secundario div a h2 {
+	font-size: 2.8rem;	
+
+}
+
