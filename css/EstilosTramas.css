@@ -17,6 +17,12 @@ section img {
     
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 4%;
+}
+
 .btn {
     padding: 10px 20px;
 
