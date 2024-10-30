@@ -53,10 +53,18 @@ nav ul li a {
     font-size: 3.3rem;
 }
 
+li a:link,
+li a:visited {
+    color: black;
+}
+
+
 li a:hover,
 .dropdown:hover .dropbtn {
     background-color: none;
 }
+
+
 
 li.dropdown {
     background-color: none;
