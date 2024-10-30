@@ -41,6 +41,8 @@
 	font-size: 2.8rem;
 
 }
+
+/* PARA LA CONSIGNA PEDIDA */
 @media (max-width: 480px) {
 
 	.secundario {
@@ -62,4 +64,29 @@
 		margin: 0 auto; /* Cambio: Centrar la imagen dentro del div */
 	}
 
+}
+
+/* PARA MI TELEFONO */
+@media (max-width: 768px) {
+
+	
+	.secundario {
+		display: block;
+		text-align: center; /* Cambio: Alinear el contenido en el centro */
+		padding-top: 7%;
+		padding-bottom: 7%;
+	}
+
+	.secundario div {
+		width: 80%;
+		margin: 0 auto; /* Cambio: Centrar el div secundario horizontalmente */
+	}
+
+	.secundario div img {
+		width: 93%;
+		height: auto;
+		display: block; /* Cambio: Hacer que la imagen sea un elemento en bloque */
+		margin: 0 auto; /* Cambio: Centrar la imagen dentro del div */
+	}
+	
 }
