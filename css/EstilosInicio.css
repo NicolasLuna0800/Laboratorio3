@@ -10,7 +10,8 @@
 }
 
 .secundario {
-	display: flex;			/**/
+	display: flex;
+	/**/
 	justify-content: center;
 	text-align: center;
 	padding-top: 7%;
@@ -22,7 +23,7 @@
 .secundario div {
 	width: 40%;
 	height: 400px;
-	
+
 }
 
 .secundario div img {
@@ -37,7 +38,28 @@
 }
 
 .secundario div a h2 {
-	font-size: 2.8rem;	
+	font-size: 2.8rem;
 
 }
+@media (max-width: 480px) {
 
+	.secundario {
+		display: block;
+		text-align: center; /* Cambio: Alinear el contenido en el centro */
+		padding-top: 7%;
+		padding-bottom: 7%;
+	}
+
+	.secundario div {
+		width: 80%;
+		margin: 0 auto; /* Cambio: Centrar el div secundario horizontalmente */
+	}
+
+	.secundario div img {
+		width: 93%;
+		height: auto;
+		display: block; /* Cambio: Hacer que la imagen sea un elemento en bloque */
+		margin: 0 auto; /* Cambio: Centrar la imagen dentro del div */
+	}
+
+}
