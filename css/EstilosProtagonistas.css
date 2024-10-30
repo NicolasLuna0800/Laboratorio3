@@ -8,12 +8,9 @@ h2 {
     font-size: 180%;
 }
 
-article  {
-    margin: 3% 4% 3%;
-}
 img {
     padding-top: 3rem;
-    width: 40%;
+    width: 90%;
     height: auto;
     display: flex;
     align-items: center;
