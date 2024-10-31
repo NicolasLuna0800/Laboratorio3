@@ -6,9 +6,7 @@
 
 /* HEADER */
 header {
-    padding-top: 1%;
     padding-right: 7%;
-    padding-bottom: 0%;
     padding-left: 3%;
     display: flex;
     justify-content: space-between;
@@ -17,14 +15,11 @@ header {
 }
 
 header img {
-    height: 80px;
+    margin-top: 23px;
     width: auto;
     display: flex;
-}
-
-header div a {
-    font-size: 5rem; /* Afecta solo al icono en pantalla grande */
-    display: inline-block;
+    height: 90px;
+    padding-bottom: 0px;
 }
 
 /* NAVIGATION */
@@ -90,8 +85,8 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-   background-color: grey;
-   text-decoration: dashed;
+    background-color: grey;
+    text-decoration: dashed;
 }
 
 .dropdown-content a:hover {
@@ -114,7 +109,9 @@ body {
     line-height: 55px;
 }
 
-p, a, ul {
+p,
+a,
+ul {
     font-family: "Dongle", sans-serif;
 }
 
@@ -127,7 +124,8 @@ p::first-letter {
     font-family: "Roboto Slab", serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 3.3rem;
     font-family: "Roboto Slab", serif;
 }
@@ -193,6 +191,11 @@ a:link {
         position: relative;
         z-index: 2;
         width: auto;
+
+        margin-top: 10px;
+        width: auto;
+        height: 50px;
+        padding-bottom: 0px;
     }
 
     header div a {
@@ -212,6 +215,7 @@ a:link {
         display: block;
         padding-right: 0.6rem;
         text-align: right;
+        padding-top: 5px;
     }
 
     nav ul {
@@ -232,7 +236,8 @@ a:link {
         padding-right: 0;
     }
 
-    .dropdown-content {  /* ACHICA Y PERMITE HACER SCROLL*/
+    .dropdown-content {
+        /* ACHICA Y PERMITE HACER SCROLL*/
         width: 40%;
         height: 150%;
         overflow: scroll;
@@ -244,18 +249,18 @@ a:link {
     }
 
     img {
-        width: 100%;  
+        width: 100%;
     }
 
     p {
         font-size: 2rem;
     }
-    
+
     p::first-letter {
         font-size: 2.4rem;
         font-family: "Roboto Slab", serif;
     }
-    
+
     h2 {
         font-size: 2.2rem;
         font-family: "Roboto Slab", serif;
