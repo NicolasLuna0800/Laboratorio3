@@ -235,7 +235,7 @@ a:link {
     .dropdown-content {  /* ACHICA Y PERMITE HACER SCROLL*/
         width: 40%;
         height: 150%;
-        overflow: scroll black;
+        overflow: scroll;
     }
 
     .dropdown-content {
