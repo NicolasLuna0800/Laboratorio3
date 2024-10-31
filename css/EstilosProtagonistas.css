@@ -51,14 +51,3 @@ section img {
 
 }
 
-@media (max-width: 768px) {
-
-    .container {
-        flex-direction: column;
-    }
-
-    .btn {
-        width: 100%; /* Botones a ancho completo en pantallas pequeñas */
-        font-size: 1rem;
-    }
-}
