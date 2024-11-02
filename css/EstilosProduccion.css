@@ -32,6 +32,8 @@ section img {
 
     h2 {
         font-size: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
     }
 
     section img {
@@ -46,6 +48,11 @@ section img {
     .btn {
         width: 100%; /* Botones a ancho completo en pantallas pequeñas */
         font-size: 1rem;
+    }
+
+    section img {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
     }
 
 }
