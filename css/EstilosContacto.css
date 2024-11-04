@@ -1,5 +1,5 @@
 input[type=text],
-select {
+select, textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -7,6 +7,10 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+textarea {
+  font-size: 1.5rem;
 }
 
 input[type=submit] {
@@ -26,7 +30,7 @@ input[type=submit]:hover {
 
 input,
 select {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 label {
@@ -72,6 +76,10 @@ input[type=submit] {
 input,
 select {
   font-size: 0.9rem;
+}
+
+textarea {
+  font-size: .9rem;
 }
 
 label {

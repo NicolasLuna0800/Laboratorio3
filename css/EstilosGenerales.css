@@ -70,7 +70,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 30%;
+    width: 15%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-left: 1%;
@@ -105,7 +105,7 @@ li.dropdown {
 
 /* BODY */
 body {
-    background-image: url("../images/fondo.jpg");
+    background-image: url("../imagenes/fondo.jpg");
     line-height: 55px;
 }
 
@@ -116,7 +116,7 @@ ul {
 }
 
 p {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
 }
 
 p::first-letter {
@@ -124,9 +124,15 @@ p::first-letter {
     font-family: "Roboto Slab", serif;
 }
 
-h1,
+h1 {
+
+    font-size: 3.2rem;
+    font-family: "Roboto Slab", serif;
+
+}
+
 h2 {
-    font-size: 3.3rem;
+    font-size: 2.8rem;
     font-family: "Roboto Slab", serif;
 }
 
@@ -191,7 +197,6 @@ a:link {
         position: relative;
         z-index: 2;
         width: auto;
-
         margin-top: 10px;
         width: auto;
         height: 50px;
@@ -220,6 +225,7 @@ a:link {
 
     nav ul {
         display: none;
+        margin-top: 4rem;
     }
 
     nav.responsive ul {
@@ -238,14 +244,28 @@ a:link {
 
     .dropdown-content {
         /* ACHICA Y PERMITE HACER SCROLL*/
-        width: 40%;
-        height: 150%;
         overflow: scroll;
+        top: 8rem;
+
     }
 
     .dropdown-content {
-        width: 70%;
-        height: 90%;
+        width: 40%;
+        height: 150%;
+    }
+
+    li a,
+    .dropbtn {
+        display: inline-block;
+        text-align: center;
+        padding: 3px 6px;
+        text-decoration: none;
+        font-size: 2.4rem;
+    }
+
+    li div a {
+        font-size: 2rem !important;
+        padding-top: .7rem !important;
     }
 
     img {
@@ -253,7 +273,7 @@ a:link {
     }
 
     p {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     p::first-letter {
@@ -262,12 +282,21 @@ a:link {
     }
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-family: "Roboto Slab", serif;
     }
 
     h1 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
+    }
+
+    footer {
+        padding-left: 5%;
+    }
+
+    footer img {
+        width: 80%;
+        height: auto;
     }
 
 }

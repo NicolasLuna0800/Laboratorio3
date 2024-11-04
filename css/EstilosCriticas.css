@@ -15,13 +15,17 @@ h2 {
 
 section img {
     padding-top: 3rem;
-    width: 65%;
+    width: 30%;
     height: auto;
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+article {
+    margin-bottom: 8rem;
 }
 
 section a {
@@ -43,5 +47,11 @@ section a {
         font-size: 1.5rem;
     }
 
+    article {
+        margin-bottom: 2.5rem;
+    }
 
+    h1 {
+        padding-bottom: .5rem;
+    }
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/EstilosGenerales.css">
-    <link rel="stylesheet" href="css/EstilosInicio.css">
+    <link rel="stylesheet" href="css/EstilosContacto.css">
     <title>Doctor House</title>
 
 
@@ -78,39 +78,35 @@
 
     <section>
 
-        <article class="principal">
-            <img src="imagenes/EquipoCompleto03.webp" alt="Equipo medico">
-
-            <h1> INICIO </h1>
-
-            <p>
-                La serie trata sobre un doctor prodigio de la medicina llamado <b>Gregory House</b>,
-                quien tiene un don único para resolver las afecciones más enigmáticas que se le presentan.<br>
-
-                En el transcurso de la trama, veremos a House y su equipo lidiar con diferentes casos,
-                los cuales se verán constantemente comprometidos por las disputas internas del equipo; metodología,
-                ética, moral, etcétera, o por las acciones del Dr. House, principalmente su adicción, sus malas practicas y
-                malos tratos.<br>
-
-                Todas estas <b>acciones descarriladas</b> y sin control van incrementando en la historia, desencadenando así.
-                otros hechos
-                que aportan mucha diversidad y apego a la trama de esta serie. <br>
-            </p>
-        </article>
-        <article class="secundario">
+        <h1> COMUNÍCATE CON NOSOTROS </h1>
+        <article>
+            <h2>¿Queres dejarnos alguna recomendacion, critica, opinion o proponer un cambio? Completa el formulario</h2>
             <div>
-                <a href="Galeria.html">
-                    <img src="imagenes/Casting02.avif">
-                    <h2> Galeria</h2>
-                </a>
+                <form action="#">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Mayte...">
+
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="De la Trinidad...">
+
+                    <label for="Contact">Correo</label>
+                    <input type="text" id="contact" name="mailcontact" placeholder="correo@ejemplo.com">
+
+                    <label for="razon">Motivo</label>
+                    <select id="razon" name="rol">
+                        <option value="recomendacion">Recomendacion</option>
+                        <option value="critica">Critica</option>
+                        <option value="opinion">Oponión</option>
+                        <option value="queja">Quejas</option>
+                        <option value="otro">Otros</option>
+                    </select>
+
+                    <label for="propuesta"> Describa su propuesta </label>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe aquí..."></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
 
-            <div>
-                <a href="MasSeries.html">
-                    <img src="imagenes/buscar02.jpg">
-                    <h2> Otras series </h2>
-                </a>
-            </div>
 
 
         </article>
